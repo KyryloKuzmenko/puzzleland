@@ -1,0 +1,64 @@
+.how-it-works-section {
+  background-image: url("./img/puzzle-background-1.png");
+  background-color: #415050;
+
+   background-repeat: no-repeat; 
+   background-size: cover;  
+
+  display: flex;
+  flex-direction: column;
+}
+
+.how-it-works-title {
+  font-size: 38px;
+  text-transform: capitalize;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
+.how-it-works-subtitle {
+  font-size: 20px;
+  color: #fff;
+}
+
+.how-it-works-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #fff;
+  margin-top: 18px;
+}
+
+.how-it-works-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 22px;
+  margin-bottom: 45px;
+}
+
+.how-it-works-item {
+  border-radius: 22px;
+  padding: 16px;
+  /* width: 335px;
+  height: 172px; */
+  background-color: #fff;
+  text-align: center;
+}
+
+.how-it-works-step-title {
+  font-size: 18px;
+  line-height: 1.44444;
+  text-align: center;
+  color: #000;
+}
+
+.how-it-works-step-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #000;
+  margin-top: 10px;
+}
