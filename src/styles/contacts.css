@@ -1,0 +1,71 @@
+.contact-section {
+  background-image: url("./img/puzzle-background-3.png");
+  background-color: #415050;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-wrap {
+    margin-top: 216px;
+    margin-bottom: 215px;
+}
+
+.contact-title {
+  font-weight: 900;
+  font-size: 38px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-top: 18px;
+}
+
+.contact-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #fff;
+  margin-top: 18px;
+}
+
+.variants-contact-title {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #fff;
+}
+
+.email-text,
+.address-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #fff;
+}
+
+.email,
+.address-location {
+  font-weight: 400;
+}
+
+.email-text {
+    margin-top: 12px;
+}
+
+.address-text {
+    margin-top: 8px;
+}
