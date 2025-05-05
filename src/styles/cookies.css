@@ -1,0 +1,52 @@
+.section-cookie {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.cookie-title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.08333;
+  text-align: center;
+  color: #000;
+  margin-bottom: 20px;
+  margin-top: 49px;
+}
+
+.cookie-info {
+    margin-bottom: 51px;
+}
+
+.definition-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.definition-list li::before {
+  content: "•";
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+.definition-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+
+
+.dot::before {
+    content: ".";
+    position: relative;
+    top: -3px;
+}
+
+.link {
+  text-decoration: underline;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}
