@@ -2,13 +2,15 @@ import Swiper from "swiper";
 import "swiper/css";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const prevBtn = document.querySelector(".prev-btn");
-  const nextBtn = document.querySelector(".next-btn");
 
-  const swiper = new Swiper(".swiper", {
+  const prevBtn = document.querySelector(".gallery-prev-btn");
+  const nextBtn = document.querySelector(".gallery-next-btn");
+
+  const swiper = new Swiper(".gallery-swiper", {
     slidesPerView: 1,
     loop: false,
-    spaceBetween: 40,
+    spaceBetween: 18,
+    initialSlide: 1, 
 
     on: {
       afterInit(sw) {
@@ -20,27 +22,26 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
 
+
   function updateButtons(sw) {
     const isPrevDisabled = sw.isBeginning;
     const isNextDisabled = sw.isEnd;
 
-    // left control btn
     prevBtn.disabled = isPrevDisabled;
     prevBtn.querySelector(".default-arrow").style.display = isPrevDisabled
-      ? "block" 
+      ? "block"
       : "none";
     prevBtn.querySelector(".disabled-arrow").style.display = isPrevDisabled
       ? "none"
-      : "block"; 
+      : "block";
 
-    // right control btn
     nextBtn.disabled = isNextDisabled;
     nextBtn.querySelector(".default-arrow").style.display = isNextDisabled
-      ? "block" 
+      ? "block"
       : "none";
     nextBtn.querySelector(".disabled-arrow").style.display = isNextDisabled
       ? "none"
-      : "block"; 
+      : "block";
   }
 
   prevBtn.addEventListener("click", () => {
