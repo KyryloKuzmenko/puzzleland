@@ -1,0 +1,67 @@
+.advantages-section {
+  background-image: url("./img/puzzle-background-2.png");
+  background-color: #415050;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages-title {
+  font-weight: 900;
+  font-size: 38px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.advantages-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-top: 18px;
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #fff;
+  margin-top: 18px;
+}
+
+.advantages-list-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #fff;
+  margin-top: 18px;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+  margin-bottom: 55px;
+}
+
+.advantages-list-item {
+  border-radius: 22px;
+  padding: 16px;
+  background: #fff;
+}
+
+.advantages-list-item-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #080a0a;
+}
