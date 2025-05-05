@@ -1,13 +1,108 @@
-<section>
-  <h2>Produkty</h2>
-  <h3>
+<section class="products-section container">
+  <h2 class="products-title">Produkty</h2>
+  <h3 class="products-subtitle">
     Nasza oferta to szeroki wybór ręcznie robionych dekoracji, które zaskoczą
     Cię swoją estetyką.
   </h3>
-  <p>
+  <p class="products-text">
     W ofercie The Dazzling Puzzle Land znajdziesz szeroki wybór produktów, które
     łączą funkcjonalność z artystycznym wyrazem. Nasze produkty to idealna
     propozycja dla każdego, kto szuka unikalnych dekoracji.
   </p>
-  <div>swiper</div>
+  <!-- Slider main container -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="slide-inner">
+          <img src="./img/swiper/product-slides/slide-1.png" alt="Magnesy" />
+          <h4 class="slider-title">Magnesy:</h4>
+          <p class="slider-text">
+            Magnetyczne puzzle w kształcie różnych motywów, które idealnie
+            ozdobią Twoją lodówkę lub tablicę.
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-inner">
+          <img src="./img/swiper/product-slides/slide-2.png" alt="Obrazy" />
+          <h4 class="slider-title">Obrazy:</h4>
+          <p class="slider-text">
+            Puzzle w postaci obrazów, które po złożeniu tworzą wyjątkowe dzieła
+            sztuki. Każdy obraz to kompozycja kilku puzzli, którą można dowolnie
+            aranżować.
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-inner">
+          <img src="./img/swiper/product-slides/slide-3.png" alt="Breloki" />
+          <h4 class="slider-title">Breloki:</h4>
+          <p class="slider-text">
+            Unikalne breloki, które możesz zabrać wszędzie, a każdy z nich to
+            małe, ręcznie robione dzieło.
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-inner">
+          <img src="./img/swiper/product-slides/slide-4.png" alt="Szkatułki" />
+          <h4 class="slider-title">Szkatułki:</h4>
+          <p class="slider-text">
+            Eleganckie pudełka w formie puzzli, które świetnie sprawdzą się jako
+            przechowywanie biżuterii lub innych drobiazgów.Dlaczego nasze
+            produkty są wyjątkowe?
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-inner">
+          <img src="./img/swiper/product-slides/slide-5.png" alt="Dekory" />
+          <h4 class="slider-title">Unikalność:</h4>
+          <p class="slider-text">
+            Każdy element jest ręcznie wykonany, dzięki czemu masz pewność, że
+            produkt jest jedyny w swoim rodzaju.
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-inner">
+          <img src="./img/swiper/product-slides/slide-6.png" alt="Zestawy" />
+          <h4 class="slider-title">Wysokiej jakości materiały:</h4>
+          <p class="slider-text">
+            Używamy tylko najlepszych materiałów, takich jak drewno, szkło,
+            żywica i metal.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-buttons">
+      <button class="prev-btn">
+        <img
+          src="./img/swiper/arrows/left-arrow.png"
+          alt="Previous"
+          class="default-arrow"
+        />
+        <img
+          src="./img/swiper/arrows/active-arrow-left.png"
+          alt="Previous (disabled)"
+          class="disabled-arrow"
+          style="display: none"
+        />
+      </button>
+      <button class="next-btn">
+        <img
+          src="./img/swiper/arrows/right-arrow.png"
+          alt="Next"
+          class="default-arrow"
+        />
+        <img
+          src="./img/swiper/arrows/active-arrow-right.png"
+          alt="Next (disabled)"
+          class="disabled-arrow"
+          style="display: none"
+        />
+      </button>
+    </div>
+  </div>
 </section>

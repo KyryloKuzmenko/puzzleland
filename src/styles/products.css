@@ -1,0 +1,107 @@
+.products-section {
+  background-color: #f5f4ed;
+  display: flex;
+  flex-direction: column;
+}
+
+.products-title {
+  font-size: 38px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #080a0a;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
+.products-subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: #080a0a;
+  margin-bottom: 18px;
+}
+
+.products-text {
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #080a0a;
+  margin-bottom: 30px;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;   
+}
+
+.slide-inner {
+  background-color: #fff;
+  border-radius: 22px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 368px;
+  box-sizing: border-box;
+}
+
+.slider-title {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.44444;
+  text-align: center;
+}
+
+.slider-text {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+}
+
+.swiper-buttons {
+  width: 112px;
+  display: flex;
+  gap: 16px;
+  margin: 30px auto 20px;
+}
+
+.prev-btn,
+.next-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 48px;
+  height: 48px;
+}
+
+.swiper-buttons button:not(:disabled) .arrow {
+  fill: #fff;
+  stroke: #a13030;
+}
+
+.swiper-buttons button:not(:disabled) .arrow path:nth-child(2) {
+  fill: #a13030; /* Цвет стрелки */
+}
+
+.swiper-buttons button:disabled .arrow {
+  fill: #080a0a;
+  stroke: #a13030;
+  opacity: 0.5; /* Общая прозрачность для неактивной кнопки */
+}
+
+.swiper-buttons button:disabled .arrow path:nth-child(2) {
+  fill: #a13030; /* Цвет стрелки */
+}
