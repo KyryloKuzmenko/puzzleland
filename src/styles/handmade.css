@@ -1,0 +1,61 @@
+.handmade-section {
+  display: flex;
+  flex-direction: column;
+  background: #f5f4ed;
+}
+
+.handmade-title {
+  font-weight: 900;
+  font-size: 38px;
+  text-transform: capitalize;
+  color: #080a0a;
+  margin-top: 20px;
+}
+
+.handmade-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  color: #080a0a;
+  margin-top: 18px;
+}
+
+.handmade-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #080a0a;
+  margin-top: 18px;
+}
+
+.handmade-list-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #080a0a;
+  margin-top: 18px;
+}
+
+.handmade-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.handmade-list-item {
+  border-radius: 22px;
+  padding: 16px;
+  background: #fff;
+}
+
+.handmade-list-item-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #080a0a;
+}
+
+.handmade-img {
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
