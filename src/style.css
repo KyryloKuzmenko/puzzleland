@@ -12,6 +12,7 @@
 @import url("./styles/footer.css");
 @import url("./styles/cookies.css");
 @import url("./styles/terms-and-conditions.css");
+@import url("./styles/privat-policy.css");
 
 body {
     font-family: "Roboto", sans-serif;

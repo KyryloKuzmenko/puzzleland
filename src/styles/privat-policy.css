@@ -1,0 +1,26 @@
+.privat-policy {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.privat-policy-title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.08333;
+  text-align: center;
+  color: #000;
+  margin-top: 40px;
+}
+
+.policy-wrap p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+
+.policy-wrap {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
