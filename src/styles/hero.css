@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: #415050;
+ padding-top: 60px;
 }
 
 .hero-title {

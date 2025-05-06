@@ -1,6 +1,85 @@
-header {
-  background-color: #7d9596;
-  border-bottom: 2px solid #fff;
-  width: 375px;
+html {
+  scrollbar-gutter: stable;
+}
+
+.header-section {
+  position: fixed;
+  background: #7d9596;
+  z-index: 1003;
+  left: 0;
+  right: 0;
+  top: 0;
   height: 60px;
+  border-bottom: 2px solid #fff;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+  width: 100%; 
+  max-width: 375px; 
+  margin: 0 auto; 
+  z-index: 1001;
+  opacity: 0;
+  visibility: hidden;
+  backdrop-filter: blur(88px);
+  background: rgba(214, 225, 230, 0.65);
+  transition: opacity 0.3s, visibility 0.3s;
+  overflow-y: auto;
+  padding-top: 60px; 
+}
+
+.backdrop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.backdrop-wrap {
+  position: relative;
+}
+
+.header-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.header-menu-open-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  top: 16px;
+}
+
+
+.close-menu-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  top: 16px;
+}
+
+.close-menu-btn {
+  display: none;
+}
+
+
+.item-link-bd.active {
+  color: white;
+  font-weight: 900;
 }

@@ -10,7 +10,8 @@
   line-height: 1.08333;
   text-align: center;
   color: #000;
-  margin-top: 40px;
+  margin-top: 60px;
+  padding-top: 40px;
 }
 
 .policy-wrap p {
@@ -24,3 +25,4 @@
     margin-top: 20px;
     margin-bottom: 40px;
 }
+

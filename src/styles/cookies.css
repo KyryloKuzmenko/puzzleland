@@ -11,7 +11,8 @@
   text-align: center;
   color: #000;
   margin-bottom: 20px;
-  margin-top: 49px;
+  margin-top: 60px;
+  padding-top: 49px;
 }
 
 .cookie-info {
@@ -49,4 +50,9 @@
   overflow-wrap: break-word;
   word-break: break-word;
   white-space: normal;
+}
+
+.item-link-bd.active {
+  color: white;
+  font-weight: 900;
 }

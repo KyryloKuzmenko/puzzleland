@@ -13,6 +13,7 @@
 @import url("./styles/cookies.css");
 @import url("./styles/terms-and-conditions.css");
 @import url("./styles/privat-policy.css");
+@import url("./styles/cookies-modal.css");
 
 body {
     font-family: "Roboto", sans-serif;
@@ -33,5 +34,9 @@ h3 {
 address {
   font-style: normal;        
   text-decoration: none; 
+}
+
+section {
+  scroll-margin-top: 60px; 
 }
 
