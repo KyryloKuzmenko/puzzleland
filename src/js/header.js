@@ -26,7 +26,24 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function highlightMenu() {
-    const headerHeight = header.offsetHeight; // 60 или 80
+    
+    const current = window.location.pathname.split("/").pop();
+    const pages = [
+      "privat-policy.html",
+      "terms-and-conditions.html",
+      "cookies-policy.html",
+    ];
+    if (pages.includes(current)) {
+      menuLinks.forEach((l) => l.classList.remove("active"));
+      const pageLink = document.querySelector(
+        `.item-link-bd[href="./${current}"]`
+      );
+      pageLink?.classList.add("active");
+      return; 
+    }
+
+
+    const headerHeight = header.offsetHeight; 
     const fromTop = window.scrollY + headerHeight + 5;
 
     let any = false;

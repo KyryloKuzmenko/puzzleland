@@ -1,5 +1,5 @@
 .how-it-works-section {
-  background-image: url("./img/puzzle-background-1.png");
+  background-image: url("/puzzle-background-1.png");
   background-color: #415050;
 
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@
     padding-left: 80px; 
     padding-right: 80px;
     box-sizing: border-box;
-    background-image: url("./img/desktop-img/background-1.png");
+    background-image: url("/img/desktop-img/background-1.png");
     max-width: 1440px;
     margin: 0 auto; 
   }

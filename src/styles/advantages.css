@@ -1,5 +1,5 @@
 .advantages-section {
-  background-image: url("./img/puzzle-background-2.png");
+  background-image: url("/puzzle-background-2.png");
   background-color: #415050;
 
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@
 
 @media only screen and (min-width: 1024px) {
   .advantages-section {
-    background-image: url("./img/desktop-img/background-2.png");
+    background-image: url("/img/desktop-img/background-2.png");
     max-width: 1440px;
   }
 

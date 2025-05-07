@@ -1,5 +1,5 @@
 .contact-section {
-  background-image: url("./img/puzzle-background-3.png");
+  background-image: url("/puzzle-background-3.png");
   background-color: #415050;
 
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@
 
 @media only screen and (min-width: 1024px) {
   .contact-section {
-    background-image: url("./img/desktop-img/background-3.png");
+    background-image: url("/img/desktop-img/background-3.png");
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 80px;
