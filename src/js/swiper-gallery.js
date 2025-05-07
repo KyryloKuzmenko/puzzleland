@@ -8,9 +8,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const swiper = new Swiper(".gallery-swiper", {
     slidesPerView: 1,
+    centeredSlides: true,
     loop: false,
     spaceBetween: 18,
-    initialSlide: 1, 
+    initialSlide: 1,
+
+    breakpoints: {
+      1024: {
+        slidesPerView: 2,
+      },
+    },
 
     on: {
       afterInit(sw) {

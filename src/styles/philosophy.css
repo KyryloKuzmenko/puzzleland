@@ -59,3 +59,26 @@
   text-align: center;
   color: #080a0a;
 }
+
+
+@media only screen and (min-width: 1024px) {
+  .philosophy-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .philosophy-list {
+    align-items: center;
+  }
+
+  .philosophy-main-text {
+    max-width: 996px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+}
+
+

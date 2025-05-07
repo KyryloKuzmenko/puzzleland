@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: #415050;
- padding-top: 60px;
+  padding-top: 60px;
 }
 
 .hero-title {
@@ -27,4 +27,67 @@
   gap: 20px;
   margin-top: 14px;
   margin-bottom: 30px;
+}
+
+.image-wrap-desktop {
+  display: none;
+}
+
+.hero-img-1,
+.hero-img-2 {
+  display: none;
+}
+
+/* Десктопная версия (1024px+) */
+@media only screen and (min-width: 1024px) {
+  .hero-section {
+    max-width: 1440px;
+  }
+
+  .section-wrap {
+    display: flex;
+    padding-left: 60px;
+    padding-right: 75px;
+    margin-top: 53px;
+    margin-bottom: 58px;
+    align-items: last baseline;
+  }
+
+  .hero-img-1,
+  .hero-img-2 {
+    display: block;
+  }
+
+  .hero-img-1 {
+    width: 100%; 
+    max-width: 320px; 
+    height: auto; 
+    margin-right: 26px;
+  }
+
+
+  .hero-title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.30769;
+    text-align: start;
+  }
+
+  .hero-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.33333;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+
+  .image-wrap {
+    display: none;
+  }
+
+  .desktop-wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 }

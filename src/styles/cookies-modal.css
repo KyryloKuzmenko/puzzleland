@@ -40,6 +40,7 @@
 .cookie-btn:hover {
   background: #080a0a;
   color: #f1f1f1;
+  transition: 0.3s ease;
 }
 
 .close-cookies-modal-btn {
@@ -52,4 +53,33 @@
   right: 28px;
   width: 14px;
   height: 14px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .cookies-wrap {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    width: 1272px;
+    height: 164px;
+    gap: 67px;
+  }
+
+  .cookies-text {
+    max-width: 648px;
+    padding: 0;
+    font-size: 18px;
+  }
+
+  .cookies-btn-wrap {
+    margin: 0;
+  }
+
+  .close-cookies-modal-btn {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 50px;
+  }
 }

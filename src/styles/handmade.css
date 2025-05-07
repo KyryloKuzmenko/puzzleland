@@ -56,6 +56,32 @@
 }
 
 .handmade-img {
-    margin-top: 20px;
-    margin-bottom: 19px;
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+
+.handmade-img-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .handmade-img {
+    display: none;
+  }
+
+  .handmade-img-desktop {
+    display: block;
+  }
+
+  .handmade-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+    max-width: 1440px;
+    padding: 80px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
 }

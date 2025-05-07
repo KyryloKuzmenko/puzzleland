@@ -26,3 +26,9 @@
     margin-bottom: 40px;
 }
 
+@media only screen and (min-width: 1024px) {
+  .privat-policy {
+    max-width: 1440px;
+  }
+}
+

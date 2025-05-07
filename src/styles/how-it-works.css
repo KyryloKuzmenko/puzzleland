@@ -2,8 +2,8 @@
   background-image: url("./img/puzzle-background-1.png");
   background-color: #415050;
 
-   background-repeat: no-repeat; 
-   background-size: cover;  
+  background-repeat: no-repeat;
+  background-size: cover;
 
   display: flex;
   flex-direction: column;
@@ -41,8 +41,6 @@
 .how-it-works-item {
   border-radius: 22px;
   padding: 16px;
-  /* width: 335px;
-  height: 172px; */
   background-color: #fff;
   text-align: center;
 }
@@ -61,4 +59,34 @@
   text-align: center;
   color: #000;
   margin-top: 10px;
+}
+
+.last-p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .how-it-works-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px; 
+    padding-left: 80px; 
+    padding-right: 80px;
+    box-sizing: border-box;
+    background-image: url("./img/desktop-img/background-1.png");
+    max-width: 1440px;
+    margin: 0 auto; 
+  }
+
+  .main-text-wrap {
+    flex: 0 0 561px; 
+  }
+
+  .how-it-works-list {
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 32px;
+  }
 }

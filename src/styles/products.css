@@ -38,7 +38,7 @@
 
 .swiper-slide {
   display: flex;
-  justify-content: center;   
+  justify-content: center;
 }
 
 .slide-inner {
@@ -93,15 +93,40 @@
 }
 
 .swiper-buttons button:not(:disabled) .arrow path:nth-child(2) {
-  fill: #a13030; /* Цвет стрелки */
+  fill: #a13030; 
 }
 
 .swiper-buttons button:disabled .arrow {
   fill: #080a0a;
   stroke: #a13030;
-  opacity: 0.5; /* Общая прозрачность для неактивной кнопки */
+  opacity: 0.5; 
 }
 
 .swiper-buttons button:disabled .arrow path:nth-child(2) {
-  fill: #a13030; /* Цвет стрелки */
+  fill: #a13030; 
+}
+
+.slider-p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .products-section {
+    padding-left: 80px;
+    padding-right: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .slide-inner {
+    height: 380px;
+    height: 342px;
+  }
+
+  .product-main-text {
+    margin: 50px auto;
+    max-width: 892px;
+  }
+
 }

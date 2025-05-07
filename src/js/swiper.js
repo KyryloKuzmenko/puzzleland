@@ -10,6 +10,12 @@ document.addEventListener("DOMContentLoaded", () => {
     loop: false,
     spaceBetween: 40,
 
+    breakpoints: {
+      1024: {
+        slidesPerView: 3.5,
+      },
+    },
+
     on: {
       afterInit(sw) {
         updateButtons(sw);

@@ -10,8 +10,8 @@
 }
 
 .contact-wrap {
-    margin-top: 216px;
-    margin-bottom: 215px;
+  margin-top: 216px;
+  margin-bottom: 215px;
 }
 
 .contact-title {
@@ -63,9 +63,30 @@
 }
 
 .email-text {
-    margin-top: 12px;
+  margin-top: 12px;
 }
 
 .address-text {
-    margin-top: 8px;
+  margin-top: 8px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .contact-section {
+    background-image: url("./img/desktop-img/background-3.png");
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 80px;
+    box-sizing: border-box;
+  }
+
+  .contact-wrap {
+    max-width: 996px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .address-location br {
+    display: none;
+  }
 }

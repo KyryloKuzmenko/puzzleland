@@ -65,3 +65,21 @@
   text-align: center;
   color: #080a0a;
 }
+
+@media only screen and (min-width: 1024px) {
+  .advantages-section {
+    background-image: url("./img/desktop-img/background-2.png");
+    max-width: 1440px;
+  }
+
+  .advantages-wrap {
+    max-width: 996px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 16px;
+  }
+
+  .advantages-list {
+    align-items: center;
+  }
+}
